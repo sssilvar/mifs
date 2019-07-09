@@ -68,7 +68,7 @@ class MutualInformationFeatureSelector(BaseEstimator, SelectorMixin):
     n_features_ : int
         The number of selected features.
 
-    support_ : array of length X.shape[1]
+    support_mask_ : array of length X.shape[1]
         The mask array of selected features.
 
     ranking_ : array of shape n_features
